@@ -47,26 +47,34 @@ const ListaPokemon = [
     }
 ];
 
+console.log(ListaPokemon)
+
+console.log(ListaPokemon[0])
 //Llamar funcion
   
 // Mostrar_Pokemon_Posicion0();
 
-function nameMostrar_Pokemon_Posicion0() { 
+function Mostrar_Pokemon_Posicion0() {
+
+
   document.getElementById("IdPokemon0").innerHTML = `
-     <div>
-          <div class="card">
-             <img class="card-img-top img-fluid" src="${ListaPokemon[0].Imagen}" alt="Imagen de posicion 0">
-              <div class="card-body">
-                  <h4 class="card-title">Aqui el nombre de posicion 0</h4>
-                  <p class="card-text">Aqui el nombre de posicion 0</p>
-                  <button class="btn btn-primary" onclick="">Ver Detalles</button>
-               </div>
-          </div>
-      </div>
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[0].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[0].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[0].Nombre}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
       
-    `;
+`
   
 }
+
+
 
 // Mostrar_Pokemon_Posicion1();
 // Mostrar_Pokemon_Posicion2();
