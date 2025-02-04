@@ -165,10 +165,93 @@ function Mostrar_Pokemon_Posicion4() {
 }
 
 // Mostrar_Pokemon_Posicion5();
+Mostrar_Pokemon_Posicion5();
+
+function Mostrar_Pokemon_Posicion5() {
+
+  document.getElementById("IdPokemon5").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[5].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[5].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[5].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
 
 // Mostrar_Pokemon_Posicion6();
+Mostrar_Pokemon_Posicion6();
+
+function Mostrar_Pokemon_Posicion6() {
+
+  document.getElementById("IdPokemon6").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[6].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[6].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[6].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 // Mostrar_Pokemon_Posicion7();
+Mostrar_Pokemon_Posicion7();
+
+function Mostrar_Pokemon_Posicion7() {
+
+  document.getElementById("IdPokemon7").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[7].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[7].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[7].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 // Mostrar_Pokemon_Posicion8();
+Mostrar_Pokemon_Posicion8();
+
+function Mostrar_Pokemon_Posicion8() {
+
+  document.getElementById("IdPokemon8").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[8].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[8].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[8].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 
 //Ejemplo Funcion
 
