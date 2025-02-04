@@ -51,11 +51,12 @@ console.log(ListaPokemon)
 
 console.log(ListaPokemon[0])
 //Llamar funcion
-  
+
+
 // Mostrar_Pokemon_Posicion0();
-
+Mostrar_Pokemon_Posicion0();
+  
 function Mostrar_Pokemon_Posicion0() {
-
 
   document.getElementById("IdPokemon0").innerHTML = `
 
@@ -64,7 +65,7 @@ function Mostrar_Pokemon_Posicion0() {
             <img class="card-img-top img-fluid" src="${ListaPokemon[0].Imagen}" alt="Imagen de posicion 0">
             <div class="card-body">
               <h4 class="card-title">${ListaPokemon[0].Nombre}</h4>
-              <p class="card-text">${ListaPokemon[0].Nombre}</p>
+              <p class="card-text">${ListaPokemon[0].Descripcion}</p>
               <button class="btn btn-primary" onclick="">Ver Detalles</button>
             </div>
         </div>
@@ -74,13 +75,97 @@ function Mostrar_Pokemon_Posicion0() {
   
 }
 
-
-
 // Mostrar_Pokemon_Posicion1();
+
+Mostrar_Pokemon_Posicion1();
+
+function Mostrar_Pokemon_Posicion1() {
+
+  document.getElementById("IdPokemon1").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[1].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[1].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[1].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 // Mostrar_Pokemon_Posicion2();
+Mostrar_Pokemon_Posicion2();
+  
+function Mostrar_Pokemon_Posicion2() {
+
+  document.getElementById("IdPokemon2").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[2].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[2].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[2].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 // Mostrar_Pokemon_Posicion3();
+Mostrar_Pokemon_Posicion3();
+
+function Mostrar_Pokemon_Posicion3() {
+
+  document.getElementById("IdPokemon3").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[3].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[3].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[3].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 // Mostrar_Pokemon_Posicion4();
+Mostrar_Pokemon_Posicion4();
+
+function Mostrar_Pokemon_Posicion4() {
+
+  document.getElementById("IdPokemon4").innerHTML = `
+
+    <div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="${ListaPokemon[4].Imagen}" alt="Imagen de posicion 0">
+            <div class="card-body">
+              <h4 class="card-title">${ListaPokemon[4].Nombre}</h4>
+              <p class="card-text">${ListaPokemon[4].Descripcion}</p>
+              <button class="btn btn-primary" onclick="">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+      
+`
+  
+}
+
 // Mostrar_Pokemon_Posicion5();
+
 // Mostrar_Pokemon_Posicion6();
 // Mostrar_Pokemon_Posicion7();
 // Mostrar_Pokemon_Posicion8();
